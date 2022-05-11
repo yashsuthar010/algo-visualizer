@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* border: black solid; */
+  align-items: center;
+  background: #000;
+  height: 13vh;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  list-style: none;
+  /* border: #b721ff solid; */
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#logo {
+  font-size: 2em;
+  font-weight: 800;
+  /* height: 4.4vh; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: -webkit-linear-gradient(rgb(84, 0, 129), rgb(230, 39, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
